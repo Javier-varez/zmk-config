@@ -9,8 +9,8 @@
     sda-pin = <37>;
     scl-pin = <38>;
 
-    backlight: leds@0 {
-        compatible = "is31fl3733,leds";
+    backlight: leds@50 {
+        compatible = "lumissil,is31fl3733";
         reg = <0x50>;
         label = "backlight";
 
