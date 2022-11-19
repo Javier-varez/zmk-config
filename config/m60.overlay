@@ -15,6 +15,7 @@
         compatible = "lumissil,is31fl3733";
         reg = <0x50>;
         label = "backlight";
+        global-current-control = <128>;
 
         power-gpios = <&gpio1 4 (GPIO_ACTIVE_HIGH)>;
         auto-breath-mode-1 = <
